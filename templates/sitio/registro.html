@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="grid.css">  <!--Enlaza tu archivo de CSS -->
+</head>
+<body>
+    <div class="container">
+      
+        <form action="/sigup" method="POST">
+            <br><br>
+            <label for="nombre"  class="hidden"></label>
+            <input type="text" id="nombre" name="nombre"placeholder="Nombre de usuario / email" required><br>
+            
+            <label for="contra"class="hidden"></label>
+            <input type="password" id="contra" name="contra" placeholder="Contraseña"required><br>
+
+            <label for="Rcontra"class="hidden"></label>
+            <input type="password" id="confi" name="confirmm" placeholder="Confirmar Contraseña"required><br>
+
+           
+            <input type="submit" value="Registrate">
+            <div>
+                <p></p>               
+                <!-- Enlace para "Ya tengo cuenta" -->
+                <a href="/">Ya tengo cuenta</a><br>
+                <p></p>
+                <button type="button" style="border: none; background: none; padding: 0; margin: 0; cursor: pointer; border-radius: 50px;">
+                    <img src="google.png" alt="Botón de imagen" width="60" height="60">
+                </button>    
+        </div>
+        </form>
+    </div>
+</body>
+</html>

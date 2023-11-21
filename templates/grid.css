@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(E.jpg);
+    text-align: center;
+    background-size:cover;
+}
+/*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin-top:200px; */
+
+.container {
+    max-width: 400px;
+    margin: 140px auto;
+    margin-block-start: 450px auto;
+    padding: 40px;
+    border-radius: 18px;
+    
+}
+
+h1 {
+    color: #333;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 1px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 5px solid #183539;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #183539;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+a {
+    color: #4B969B; /* Cambia el color del texto del enlace a negro */
+    /*text-decoration: none;  Elimina el subrayado predeterminado */
+}
+p {
+    color: #4B969B;
+}
